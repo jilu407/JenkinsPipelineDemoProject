@@ -6,7 +6,7 @@ stage('Build')
 {
 steps{
 echo "Building the Code.........."
- "mvn clean"
+ mvn clean
 }
 }
 stage('Test') 
